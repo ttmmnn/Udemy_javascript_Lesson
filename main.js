@@ -59,10 +59,11 @@ const coffee = {
 };
 coffee.isHot = false;
 let userInfo = null;
+
+const newValue = 'hello';
 function add(num1, num2) {
-  return num1 + num2;
+  const value = num1 + num2;
+  return value;
 }
 const returnedValue = add(2, 3);
-console.log(returnedValue);
-
-// 次はチャプター29から
+// console.log(returnedValue);
