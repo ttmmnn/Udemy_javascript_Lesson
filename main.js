@@ -66,4 +66,6 @@ function add(num1, num2) {
   return value;
 }
 const returnedValue = add(2, 3);
+add(2, 3);
+
 // console.log(returnedValue);
